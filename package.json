@@ -1,0 +1,27 @@
+{
+  "name": "@skalfa/skalfa-socket",
+  "version": "1.0.0",
+  "description": "Socket.io utility package for Skalfa API framework.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --ignoreDeprecations 6.0"
+  },
+  "keywords": [
+    "aluna",
+    "socket",
+    "socket.io",
+    "websocket",
+    "skalfa"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "socket.io": "^4.7.5",
+    "@skalfa/skalfa-api-core": "file:../skalfa-api-core"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^6.0.3"
+  }
+}

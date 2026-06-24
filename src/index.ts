@@ -1,6 +1,6 @@
 import os from 'os'
 import { Server, Socket } from "socket.io";
-import { auth, logger } from "@skalfa/skalfa-api-core";
+import { auth, logger, registry } from "@skalfa/skalfa-api-core";
 
 let io: Server | null = null;
 
@@ -195,3 +195,5 @@ export const socket = {
     logger.socket("WS shutdown complete");
   },
 };
+
+registry.register("socket", socket);

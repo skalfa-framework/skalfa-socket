@@ -1,7 +1,7 @@
 {
   "name": "@skalfa/skalfa-socket",
   "version": "1.0.1",
-  "description": "Socket.io utility package for Skalfa API framework.",
+  "description": "Socket.io real-time server gateway and event handler extension for Skalfa backend services.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
